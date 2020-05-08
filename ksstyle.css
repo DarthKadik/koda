@@ -10,6 +10,10 @@ body  {
 p {
   float: left;
 }
+
+video {
+  float: right;
+}
 .post {
   padding: 5em 0;
   background: 50% 50% / cover no-repeat;
