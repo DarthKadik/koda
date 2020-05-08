@@ -8,11 +8,12 @@ body  {
 }
 
 p {
-  float: left;
+    position: relative;
+  text-align: center;
+  color: white;
 }
 
 video {
-  float: right;
 }
 .post {
   padding: 5em 0;
