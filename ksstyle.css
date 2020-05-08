@@ -269,3 +269,15 @@ video {
   100% { opacity: 1; }
 }
 	
+	#marvel {
+	height: 100%;
+	width: 100%;
+	    }
+	  
+@media only screen and (max-device-width: 1800px) {
+      #marvel {
+	width: 100%;
+	       height: auto;
+	    }
+    }
+	
