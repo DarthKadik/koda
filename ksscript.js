@@ -1,4 +1,4 @@
-/* var myVideo = document.getElementById('marvel');
+var myVideo = document.getElementById('marvel');
 
 VisSense.VisMon.Builder(VisSense(myVideo, {
     fullyvisible: 0.75
@@ -11,4 +11,4 @@ VisSense.VisMon.Builder(VisSense(myVideo, {
 })
 .build()
 .start();
-  */
+
