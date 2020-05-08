@@ -13,9 +13,8 @@ div {
 
 p {
     position: absolute;
-  top: 50%;
+  bottom: 8px;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 video {
