@@ -2,7 +2,10 @@
 body {
     background-color: #111;
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {
+    margin: 0; height: 100%; 
+    overflow: hidden
+}
 
 .title {
     font-family: "Montserrat";
@@ -39,7 +42,7 @@ h1 {
     transition: .35s ease-in-out;
     position: absolute;
     left: 15px;
-    bottom: 15px;
+    top: 15px;
     font-family: "Montserrat";
 }
 
