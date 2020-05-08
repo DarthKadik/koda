@@ -7,6 +7,9 @@ body  {
   font-weight: 700;
 }
 
+p {
+  float: left;
+}
 .post {
   padding: 5em 0;
   background: 50% 50% / cover no-repeat;
