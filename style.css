@@ -2,6 +2,7 @@
 body {
     background-color: #111;
 }
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 .title {
     font-family: "Montserrat";
