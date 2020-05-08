@@ -3,6 +3,16 @@
     <link rel="stylesheet" href="ksstyle.css" type="text/css">
 </head>
 <body> 
+    <script>
+          var viewportHeader = document.querySelector(".viewport-header");
+
+document.body.addEventListener("scroll", function(event) {
+  var opacity = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+  var scale = (document.body.offsetHeight - document.body.scrollTop) / document.body.offsetHeight;
+  document.documentElement.style.setProperty('--headerOpacity', opacity);
+  document.documentElement.style.setProperty('--headerScale', scale);
+});
+    </script>
 <header class="video-header">
   <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/Island%20-%204141.mp4" autoplay loop playsinline muted></video>
   <div class="viewport-header">
