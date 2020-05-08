@@ -1,6 +1,7 @@
 <html lang="hu">
 <head>
     <link rel="stylesheet" href="ksstyle.css" type="text/css">
+    <script src="ksscript.js"></script>
 </head>
 <body> 
    <div id="post1" class="post">
@@ -8,21 +9,6 @@
       <p>KODA</br>STUDIOS</p>
   </div>
 </div>
-<script>
-    var myVideo = document.getElementById('marvel');
-
-VisSense.VisMon.Builder(VisSense(myVideo, {
-    fullyvisible: 0.75
-}))
-.on('fullyvisible', function() {
-    myVideo.play();
-})
-.on('hidden', function() {
-    myVideo.pause();
-})
-.build()
-.start();
-</script>
 
       <video id="marvel" width="100%" height="100%" autoplay loop>
   <source src="kodastudios_mv.mp4" type="video/mp4">
