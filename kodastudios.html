@@ -4,6 +4,44 @@
     <script src="ksscript.js"></script>
 </head>
 <body> 
+    <style>
+            #style-8::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+#style-8::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-8::-webkit-scrollbar-thumb
+{
+	background-color: #000000;	
+}
+        
+        .scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+    </style>
+    <div class="scrollbar" id="style-8">
+      <div class="force-overflow"></div>
+    </div>
    <div id="post1" class="post">
    <div class="container">
       <p>KODA</br>STUDIOS</p>
